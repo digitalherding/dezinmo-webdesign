@@ -1,0 +1,162 @@
+/* CSS Document */
+body {
+	max-width: 1024px;
+	margin: 0 auto;
+	padding: 1rem;
+}
+/* Font Styles */
+.poppins-thin {
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+.poppins-extralight {
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}
+.poppins-light {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+.poppins-regular {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.poppins-medium {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+.poppins-semibold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+.poppins-bold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+.poppins-extrabold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+}
+.poppins-black {
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+.poppins-thin-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  font-style: italic;
+}
+.poppins-extralight-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-style: italic;
+}
+.poppins-light-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+.poppins-regular-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+.poppins-medium-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+}
+.poppins-semibold-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: italic;
+}
+.poppins-bold-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+.poppins-extrabold-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-style: italic;
+}
+.poppins-black-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  font-style: italic;
+}
+
+header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 2rem 0;
+	margin-bottom: 1rem;
+}
+
+.logo {
+	text-decoration: none;
+	color: #222;
+	text-transform: uppercase;
+	letter-spacing: .25rem;
+}
+
+header .logo i {
+	margin-right: .5rem;
+}
+
+header nav ul {
+	display: flex;
+	gap: 3rem;
+}
+
+header nav a {
+	text-transform: uppercase;
+	text-decoration: none;
+}
+
+.intro-section {
+	padding: 6rem 4rem;
+	background-color: #ccc;
+	border-radius: .5rem;
+	display: flex;
+	flex-direction: column;
+	gap: 2rem;
+}
+
+h1 {
+	font-size: 2.5rem;
+	line-height: 3rem;
+	max-width: 500px;
+}
+
+p {
+	line-height: 1.75rem;
+}
+
+.intro-section p {
+	max-width: 450px;
+}
+
+.uppercase {
+	text-transform: uppercase;
+}
+
+.button-white {
+	text-decoration: none;
+	color: #222;
+	background-color: #fff;
+	padding: 1.25rem 1.5rem;
+	border-radius: .5rem;
+	margin-right: auto;
+}
