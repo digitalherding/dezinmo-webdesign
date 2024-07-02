@@ -117,7 +117,7 @@ header .logo i {
 
 header nav ul {
 	display: flex;
-	gap: 3rem;
+	gap: 2.5rem;
 }
 
 header nav a {
@@ -125,8 +125,14 @@ header nav a {
 	text-decoration: none;
 }
 
+main {
+	display: flex;
+	flex-direction: column;
+	gap: 7rem;
+}
+
 .intro-section {
-	padding: 6rem 4rem;
+	padding: 8rem 6rem;
 	background-color: #ccc;
 	border-radius: .5rem;
 	display: flex;
@@ -138,6 +144,10 @@ h1 {
 	font-size: 2.5rem;
 	line-height: 3rem;
 	max-width: 500px;
+}
+
+h2 {
+	font-size: 2.25rem;
 }
 
 p {
@@ -159,4 +169,50 @@ p {
 	padding: 1.25rem 1.5rem;
 	border-radius: .5rem;
 	margin-right: auto;
+}
+
+.portfolio-grid {
+	display: grid;
+	grid-template-columns: 1fr 1fr; 
+  	grid-template-rows: 1fr 1fr;
+	grid-template-areas: "a b"
+						 "a c";
+	gap: 1.5rem;
+}
+
+.a {
+	grid-area: a;
+}
+
+.b {
+	grid-area: b;
+}
+
+.c {
+	grid-area: c;
+}
+
+.grid-item {
+	background-color: #ccc;
+	padding: 5.5rem 2rem;
+	display: flex;
+	flex-direction: column;
+	gap: 1.25rem;
+	align-items: center;
+	justify-content: center;
+	border-radius: .5rem;
+}
+
+.grid-item a {
+	text-decoration: none;
+	letter-spacing: .2rem;
+	font-size: 15px;
+	display: flex;
+	gap: .75rem;
+	align-items: center;
+}
+
+.grid-item a i {
+	font-size: 12px;
+	color: orangered;
 }
