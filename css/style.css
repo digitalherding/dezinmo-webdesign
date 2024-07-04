@@ -228,9 +228,33 @@ p {
 	padding: 0 0 8rem 0;
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr;
+	gap: 2rem;
 }
 
-.features-item {
-	aspect-ratio: 1 / 1;
+.feature-item {
 	background-color: #ccc;
+	border-radius: .5rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.feature-item img {
+	max-width: 70%;
+	height: 100%;
+	object-fit: cover;
+	border: 1px solid #ccc;
+	border-radius: 50%;
+	aspect-ratio: 1 / 1;
+}
+
+h3 {
+	font-size: 1.25rem;
+	letter-spacing: .2rem;
+	margin: 2.25rem 0 1.5rem 0;
+}
+
+.feature-item h3, .feature-item p {
+	text-align: center;
 }
